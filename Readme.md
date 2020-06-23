@@ -1,6 +1,6 @@
 # jspm検証
 
-このリポジトリは[jspm](https://jspm.org/)検証用です。
+このリポジトリは [jspm](https://jspm.org/) 検証用です。
 CDNからのインポートだけで、npmパッケージが使えるか否かをテストしました。
 
 ## 動かし方
@@ -31,6 +31,7 @@ npm start
 
 public/index.jsが検証内容です。
 以下コードでnpmパッケージをCDN経由で読み込んでいます。
+なお、読み込んだnpmパッケージは [gbraver-burst-core](https://www.npmjs.com/package/gbraver-burst-core) です。
 
 ```
 import {GbraverBurstCore, ArmDozers, ArmDozerIdList} from "https://jspm.dev/gbraver-burst-core";
